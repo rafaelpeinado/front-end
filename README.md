@@ -132,4 +132,29 @@
 - E é preciso definir o que será feito com a ativação do evento na chamada do componente
 
 
+## [Projeto](./exemplos_aula/18_projeto/)
+### Criando o projeto do curso
+- vue create .
+  - Marcar Router
+  - Yes para history mode
+- npm run serve
+
+
+### Criando uma API com JSON server
+- npm install json-server
+- "backend": "json-server --watch db/db.json" - no package.json
+  - npm run backend
+
+
+### Implementando o Vue Router
+- <router-view></router-view>
+- [Router](./exemplos_aula/18_projeto/src/router/index.js)
+
+
+### Finalizando header e footer
+- **box-sizing: border-box** - altera a forma como o tamanho total de um elemento é calculado.
+  - Facilita o controle do layout.
+  - Evita “estourar” a largura do elemento com padding e bordas.
+  - Muito comum em resets de CSS
+
 
